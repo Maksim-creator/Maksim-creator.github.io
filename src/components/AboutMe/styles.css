@@ -1,0 +1,63 @@
+.aboutMe_container {
+    display: flex;
+    padding: 10px;
+}
+
+.aboutMe_leftSide {
+    width: 50%;
+}
+
+.aboutMe_quoteTitle {
+    color: red;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.aboutMe_quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.aboutMe_description {
+    color: chocolate;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.descr {
+    padding-top: 7px;
+}
+
+.aboutMe_rightSide {
+    display: flex;
+}
+
+.descr_Wrapper {
+    padding-left: 15px;
+}
+
+.vl {
+    height: 400px;
+    border-left: 1px solid grey;
+    opacity: .5;
+}
+
+.photos_container {
+    text-align: center;
+}
+
+.diplomaImage {
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.58);
+    margin-top: 20px;
+    transition: .3s all;
+}
+
+.diplomaImage:hover {
+    transition: .3s all;
+    transform: scale(1.3);
+}

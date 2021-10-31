@@ -1,0 +1,26 @@
+.camp_header {
+    padding: 15px 0 10px 40px
+}
+
+.camp_title {
+    color: #356a8f;
+    font-weight: 700;
+    padding-bottom: 8px;
+    font-size: 19px;
+}
+
+.camp_descr {
+    width: 70%;
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    height: 600px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.58);
+}
+
+.imagesWrapper {
+    text-align: center;
+}

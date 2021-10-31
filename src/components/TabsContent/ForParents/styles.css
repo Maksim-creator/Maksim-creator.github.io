@@ -1,0 +1,57 @@
+.froParents_container {
+    padding: 10px 15px;
+}
+
+.forParents_content {
+    padding-top: 7px;
+}
+
+.title {
+    padding-bottom: 5px;
+    color: cornflowerblue;
+}
+
+ul {
+    padding: 15px 10px;
+    list-style-type: circle;
+}
+
+li {
+    padding-top: 4px;
+    text-underline: none;
+}
+
+.hr {
+    height: 1px;
+    color: grey;
+}
+
+a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+a:hover {
+    color: cornflowerblue;
+    transition: .4s all;
+}
+
+.quote_wrapper {
+    /*right: 0;*/
+
+    padding: 10px 20px;
+}
+
+.author {
+    padding-top: 4px;
+}
+
+p {
+    text-align: right;
+}
+
+.quote {
+    font-style: italic;
+}
