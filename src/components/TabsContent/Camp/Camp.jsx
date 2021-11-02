@@ -38,31 +38,31 @@ const Camp = () => {
                 </div>
             </div>
             <div className={'imagesWrapper'}>
-                <img src={photo1} alt='' />
-                <img src={photo2} alt='' />
-                <img src={photo3} alt='' />
-                <img src={photo4} alt='' />
-                <img src={photo5} alt='' />
-                <img src={photo6} alt='' />
-                <img src={photo7} alt='' />
-                <img src={photo8} alt='' />
-                <img src={photo9} alt='' />
-                <img src={photo10} alt='' />
-                <img src={photo11} alt='' />
-                <img src={photo12} alt='' />
-                <img src={photo13} alt='' />
-                <img src={photo14} alt='' />
-                <img src={photo15} alt='' />
-                <img src={photo16} alt='' />
-                <img src={photo17} alt='' />
-                <img src={photo18} alt='' />
-                <img src={photo19} alt='' />
-                <img src={photo20} alt='' />
-                <img src={photo21} alt='' />
-                <img src={photo22} alt='' />
-                <img src={photo23} alt='' />
-                <img src={photo24} alt='' />
-                <img src={photo25} alt='' />
+                <img src={photo1} alt='Camp' className={'camp_photos'}/>
+                <img src={photo2} alt='Camp' className={'camp_photos'}/>
+                <img src={photo3} alt='Camp' className={'camp_photos'}/>
+                <img src={photo4} alt='Camp' className={'camp_photos'}/>
+                <img src={photo5} alt='Camp' className={'camp_photos'}/>
+                <img src={photo6} alt='Camp' className={'camp_photos'}/>
+                <img src={photo7} alt='Camp' className={'camp_photos'}/>
+                <img src={photo8} alt='Camp' className={'camp_photos'}/>
+                <img src={photo9} alt='Camp' className={'camp_photos'}/>
+                <img src={photo10} alt='Camp' className={'camp_photos'}/>
+                <img src={photo11} alt='Camp' className={'camp_photos'}/>
+                <img src={photo12} alt='Camp' className={'camp_photos'}/>
+                <img src={photo13} alt='Camp' className={'camp_photos'}/>
+                <img src={photo14} alt='Camp' className={'camp_photos'}/>
+                <img src={photo15} alt='Camp' className={'camp_photos'}/>
+                <img src={photo16} alt='Camp' className={'camp_photos'}/>
+                <img src={photo17} alt='Camp' className={'camp_photos'}/>
+                <img src={photo18} alt='Camp' className={'camp_photos'}/>
+                <img src={photo19} alt='Camp' className={'camp_photos'}/>
+                <img src={photo20} alt='Camp' className={'camp_photos'}/>
+                <img src={photo21} alt='Camp' className={'camp_photos'}/>
+                <img src={photo22} alt='Camp' className={'camp_photos'}/>
+                <img src={photo23} alt='Camp' className={'camp_photos'}/>
+                <img src={photo24} alt='Camp' className={'camp_photos'}/>
+                <img src={photo25} alt='Camp' className={'camp_photos'}/>
 
             </div>
         </div>

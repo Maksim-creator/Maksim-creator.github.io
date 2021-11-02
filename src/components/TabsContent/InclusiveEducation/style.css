@@ -11,8 +11,14 @@
 .inc_title {
     color: #356a8f;
     font-weight: 800;
+    font-size: 25px;
 }
 
 ul {
     padding-left: 40px;
+}
+
+.inc_footer_photo {
+    width: 100%;
+    margin-bottom: -4px;
 }

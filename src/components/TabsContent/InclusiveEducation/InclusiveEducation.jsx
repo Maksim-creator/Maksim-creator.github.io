@@ -1,4 +1,5 @@
 import React from 'react';
+import footerPhoto from './PikPng.com_footer-png_5702963.png'
 import './style.css'
 
 const InclusiveEducation = () => {
@@ -17,6 +18,7 @@ const InclusiveEducation = () => {
                 <li><a href='https://docs.google.com/document/d/1mX11xwzYQahUEJO13F8YCnf9JtV05gMg/edit?usp=sharing&ouid=117703222231962966412&rtpof=true&sd=true'>Інклюзивне навчання</a></li>
                 <li><a href='https://docs.google.com/presentation/d/1bS74WHWLcPswSqF17v4-45DT4dkCnWuk/edit?usp=sharing&ouid=117703222231962966412&rtpof=true&sd=true'>Співпраця вчителя і асистента вчителя</a></li>
             </ul>
+            <img src={footerPhoto} alt={'footer_photo'} className={'inc_footer_photo'}/>
         </div>
     )
 }

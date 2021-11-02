@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css'
-
+import edcFooterPhoto from './edc_footer_photo.png';
 const EducationalWork = () => {
     return (
         <div>
@@ -21,6 +21,7 @@ const EducationalWork = () => {
                 <li><a href='https://docs.google.com/presentation/d/1dmS-O09JyR0dNDQ4VTh7ZR-uYwo8zGss/edit?usp=sharing&ouid=117703222231962966412&rtpof=true&sd=true'>День вишиванки</a></li>
                 <li><a href='https://docs.google.com/document/d/1mdVe9l91uxM4yOuhLgO2eFTtc94b0tdn/edit?usp=sharing&ouid=117703222231962966412&rtpof=true&sd=true'>Свято Букваря</a></li>
             </ul>
+            <img src={edcFooterPhoto} alt={'footer_photo'} className={'edc_footer_photo'} />
         </div>
     )
 }

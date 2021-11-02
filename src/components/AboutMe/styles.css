@@ -7,6 +7,11 @@
     width: 50%;
 }
 
+.profile_photo {
+    width: 100%;
+    height: 75%;
+}
+
 .aboutMe_quoteTitle {
     color: red;
     font-weight: 900;
@@ -59,5 +64,26 @@
 
 .diplomaImage:hover {
     transition: .3s all;
-    transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 376px){
+    .diplomaImage {
+        width: 200px;
+    }
+
+    .profile_photo {
+        height: 100px;
+    }
+
+    .aboutMe_quote {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .aboutMe_quoteTitle {
+        font-size: 20px;
+    }
+    .aboutMe_description {
+        font-size: 15px;
+    }
 }

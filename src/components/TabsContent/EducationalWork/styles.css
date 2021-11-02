@@ -16,6 +16,11 @@
 }
 
 .edc_list {
-    padding: 0px 0px 15px 40px;
+    padding: 0 0 15px 40px;
     list-style-type: circle;
+}
+
+.edc_footer_photo {
+    width: 100%;
+    margin-bottom: -4px;
 }

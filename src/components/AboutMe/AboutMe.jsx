@@ -16,7 +16,7 @@ const AboutMe = () => {
         <div>
             <div className={'aboutMe_container'}>
                 <div className={'aboutMe_leftSide'}>
-                    <img src={photo} alt={'photo'}/>
+                    <img className={'profile_photo'} src={photo} alt={'profile_photo'}/>
                     <div className={'aboutMe_quoteTitle'}>
                         Життєве кредо:
                     </div>
@@ -45,7 +45,7 @@ const AboutMe = () => {
                 <img src={photo2} alt='diploma' className={'diplomaImage'}/>
                 <img src={photo3} alt='diploma' className={'diplomaImage'}/>
                 <img src={photo4} alt='diploma' className={'diplomaImage'}/>
-                <img src={photo5} alt='diploma' className={'diplomaImage'}/>
+                <img src={photo5} alt='diploma'  className={'diplomaImage extra'}/>
                 <img src={photo6} alt='diploma' className={'diplomaImage'}/>
                 <img src={photo7} alt='diploma' className={'diplomaImage'}/>
                 <img src={photo8} alt='diploma' className={'diplomaImage'}/>
