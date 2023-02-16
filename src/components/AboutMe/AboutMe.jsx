@@ -48,7 +48,7 @@ const AboutMe = () => {
                         <div className={'descr'}>
                             <span className={'aboutMe_description'}>Спеціальність за дипломом:</span> вчитель початкових класів
                         </div>
-                        <div className={'descr'}><span className={'aboutMe_description'}>Педадгогічний стаж:</span> 24 роки</div>
+                        <div className={'descr'}><span className={'aboutMe_description'}>Педадгогічний стаж:</span> 25 років</div>
                         <div className={'descr'}><span className={'aboutMe_description'}>Кваліфікаційна категорія:</span> спеціаліст вищої категорії</div>
                         <div className={'descr'}><span className={'aboutMe_description'}>Посада:</span> вчитель початкових класів</div>
                     </div>
