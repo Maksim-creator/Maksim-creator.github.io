@@ -6,6 +6,7 @@ import AboutMe from '../AboutMe/AboutMe'
 import EducationalWork from '../TabsContent/EducationalWork/EducationalWork'
 import InclusiveEducation from '../TabsContent/InclusiveEducation/InclusiveEducation'
 import Camp from '../TabsContent/Camp/Camp'
+import MethodicalBox from '../TabsContent/MethodicalBox'
 
 const TabsNavigation = () => {
     return (
@@ -16,6 +17,7 @@ const TabsNavigation = () => {
                 <Tab>Виховна робота</Tab>
                 <Tab>Інклюзивне навчання</Tab>
                 <Tab>Табір відпочинку</Tab>
+                <Tab>Методична скринька</Tab>
             </TabList>
             <TabPanel>
                 <ForParents />
@@ -31,6 +33,9 @@ const TabsNavigation = () => {
             </TabPanel>
             <TabPanel>
                 <Camp />
+            </TabPanel>
+            <TabPanel>
+             <MethodicalBox />
             </TabPanel>
         </Tabs>
     )

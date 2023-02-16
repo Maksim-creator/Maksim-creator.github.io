@@ -1,15 +1,17 @@
 .aboutMe_container {
     display: flex;
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 .aboutMe_leftSide {
     width: 50%;
+
 }
 
 .profile_photo {
-    width: 100%;
-    height: 75%;
+    width: 90%;
+    height: 85%;
 }
 
 .aboutMe_quoteTitle {
@@ -31,7 +33,6 @@
     color: chocolate;
     font-weight: bold;
     font-size: 20px;
-    text-decoration: underline;
 }
 
 .descr {
@@ -56,10 +57,24 @@
     text-align: center;
 }
 
+.diplomaBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .diplomaImage {
+    width: 500px;
+    height: 400px;
     box-shadow: 0 0 10px rgba(5, 5, 5, 0.58);
     margin-top: 20px;
     transition: .3s all;
+}
+
+.extra {
+    height: 700px;
 }
 
 .diplomaImage:hover {
